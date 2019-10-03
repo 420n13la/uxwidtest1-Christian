@@ -1,9 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <title>UXWID</title>
+   <meta charset="utf-8">
+   <link rel="favicon.ico">
+   <link rel="stylesheet" link="styles.css">
+<style>
+
+#wrapper{
+    width: 77%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:whitesmoke;
+    padding:3%;
+    padding-top:33px;
+    padding-bottom:33px;
+}
+body{
+font-family: Helvetica, sans-serif;
+background-image:url(pattern.png);
+}
+#frame{
+  height:470px;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+.photo{
+height:100%;
+width:100%;
+background-image:url(cohort.png);
+  }
+  .legend{
+    color:#95484b;
+    font-weight:700;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    width:11.5%;
+  }
+  .logo{
+    height:50px;
+    margin-bottom:30px;
+  }
+  header{
+    
+    padding:12px;
+    background-image:linear-gradient(to bottom,#95484b, #af595c,#6f3032 );
+  }
+  nav{
+    height:30%;
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+  
+  }
+  footer{
+    margin-top:1em;
+    margin-bottom:1em;
+    text-align:center;
+  }
+  a{
+    padding:5px;
+    border-color:white;
+    background-color:#95484b;
+    border:3px;
+    color:white;
+    text-decoration:none;
+    margin:0.2em;
+  }
+#heart{
+  color:deeppink;
+}
+
+
+  </style>
+
+
 
   </head>
   <body>
- 
+    <div id="wrapper">
+      <header>
+        <img src="logo.png" class="logo">
+      </header>
+      <nav>
+          <p id="nav"><a href="">Home</a>&nbsp;&nbsp;<a href="">Students</a>&nbsp;&nbsp;<a href="">Teacher</a></p>
+        </nav>
+      <main>
+        <dl>
+          <dt><strong>What is UXWID?</strong></dt>
+            <dd>User Experience Web Interface Design (UXWID) is a course where we learn how to build websites using HTML and CSS.</dd>
+          <dt><strong>What is this page for?</strong></dt>
+            <dd>This page is the result of our first test. We were asked to build it from scratch following general instructions.</dd>
+          <dt><strong>Who are you?</strong></dt>
+            <dd>We are the SCT cohort: Smart, Cool and Troublemakers. Check us below</dd>
+        
+          
+        </dl>
+        <div id="frame">
+          <div class="photo">
+              <p class="legend">Fall 2019 Cohort</p>
+          </div>
+        </div>
+      </main>
+      <hr>
+      <footer>
+        <p><small>Made with <strong id="heart">&#x2764;</strong> in Saint-Lambert. Hire <a href="mailto:christian.chitanu@hotmail.com">ME</a> to update your website.</small></p>
+      </footer>
+    </div>
   </body>  
 </html>  
